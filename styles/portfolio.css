@@ -110,26 +110,52 @@ nav a {
 }
 /* About section css starts*/
 
-.about{
-    width: 1140px;
-height: 550px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #FFF8F3;
-margin: 130px 230px;
-/* padding: 130px; */
+.about {
+  width: 1140px;
+  height: 550px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 230px;
+  /* padding: 130px; */
 }
-.about-us{
-    padding-top: 131px;
+.about-us {
+  padding-top: 131px;
 }
-.about-info{
-    padding: 30px 151px 30px 221px;
+.about-info {
+  padding: 30px 151px 30px 221px;
 }
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
 }
-.informations{
-    text-align: center;
+.informations {
+  text-align: center;
 }
 /* About section css ends */
+/* what I do section starts */
+.do-description {
+  padding: 30px 346px 50px 345px;
+}
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+ 
+}
+.skills {
+  width: 267px;
+  height: 445px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  
+}
+.skill-image {
+  padding: 30px 193px 0px 30px;
+}
+.skill-description {
+  padding: 0px 33px;
+}
+/* what I do section ends */
