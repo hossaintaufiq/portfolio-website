@@ -21,9 +21,10 @@ padding: 18px 35px 19px 36px ;
 /* nav related styles */
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 230px 0 226px;
+     height: 161px;
 }
 nav ul li{
     list-style: none;
@@ -51,9 +52,12 @@ font-weight: 800;
 /* Header realated styles */
 .header{
     width: 1600px;
-     height: 837px;
+     height: 867px;
     flex-shrink: 0;
     background: #FFF8F3;
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     padding: 30px 30px 30px 150px;
@@ -63,6 +67,27 @@ font-weight: 800;
 .banner-image{
     width: 584px;
     height: 676px;
-    flex-shrink: 0;
-    /* background: url(<path-to-image>), lightgray -192.573px 0px / 173.656% 100% no-repeat; */
+}
+.banner-greating{
+    color:#474747;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+/* margin-bottom: 5px; */
+}
+.banner-heading{
+    color:  #181818;
+/* font-family: Open Sans; */
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 5px;
+}
+.banner-paragraph{
+    margin-top: 20px;
+}
+.banner-button .banner-button2{
+    margin-top: 30px;
 }
