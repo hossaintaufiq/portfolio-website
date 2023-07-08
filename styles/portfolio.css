@@ -23,6 +23,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 230px 0 226px;
 }
 nav ul li{
     list-style: none;
@@ -46,4 +47,22 @@ font-weight: 800;
     height: 64px;
     /* padding: 18px 35px 19px 36px ; */
 
+}
+/* Header realated styles */
+.header{
+    width: 1600px;
+     height: 837px;
+    flex-shrink: 0;
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-image{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+    /* background: url(<path-to-image>), lightgray -192.573px 0px / 173.656% 100% no-repeat; */
 }
