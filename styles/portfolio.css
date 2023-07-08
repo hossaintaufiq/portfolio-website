@@ -34,6 +34,7 @@ body {
   font-weight: 400;
   line-height: 30px;
 }
+
 /* nav related styles */
 nav {
   display: flex;
@@ -67,6 +68,8 @@ nav a {
 .header {
   width: 1600px;
   height: 867px;
+  /* width: 1vh;
+  height: 1vh; */
   flex-shrink: 0;
   background: #fff8f3;
   background-image: url("./images/header_bg.png");
@@ -106,12 +109,20 @@ nav a {
   margin-top: 30px;
 }
 /* About section css starts*/
-.about {
-  margin: 130px 230px;
-  width: 1140px;
-  height: 550px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: #fff8f3;
+
+.about{
+    width: 1140px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF8F3;
+margin: 130px 230px;
+/* padding: 130px; */
+}
+.about-us{
+    padding-top: 131px;
+}
+.about-info{
+    padding: 30px 151px 221px 30px;
 }
 /* About section css ends */
