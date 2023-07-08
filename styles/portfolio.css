@@ -34,7 +34,9 @@ body {
   font-weight: 400;
   /* line-height: 30px; */
 }
-
+main {
+  /* padding: 0px 230px; */
+}
 /* nav related styles */
 nav {
   display: flex;
@@ -66,8 +68,8 @@ nav a {
 }
 /* Header realated styles */
 .header {
-  width: 1600px;
-  height: 867px;
+  max-width: 1600px;
+  max-height: 867px;
   /* width: 1vh;
   height: 1vh; */
   flex-shrink: 0;
@@ -142,7 +144,6 @@ nav a {
   justify-content: space-around;
   gap: 24px;
   padding: 0px 230px;
- 
 }
 .skills {
   width: 267px;
@@ -151,7 +152,6 @@ nav a {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  
 }
 .skill-image {
   padding: 30px 193px 0px 30px;
@@ -162,11 +162,27 @@ nav a {
 /* what I do section ends */
 
 /* Skill section starts */
-.resume-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 230px;
-    gap: 10px;
+.resume-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 230px;
+  gap: 10px;
 }
 /* skill section ends */
+/* Footer section starts */
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 200px 230px;
+  max-width: 1600px;
+  max-height: 780px;
+  flex-shrink: 0;
+  background: #FFF8F3;
+  gap: 30px;
+}
+.footer-items{
+    width: 50%;
+}
+/* footer section ends */
