@@ -1,4 +1,8 @@
 /* common shared style  */
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Josefin Sans", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -19,7 +23,6 @@ body {
 .section-title {
   color: #181818;
   text-align: center;
-  /* font-family: Open Sans; */
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
@@ -28,11 +31,9 @@ body {
 .section-description {
   color: #757575;
   text-align: center;
-  /* font-family: Open Sans; */
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: 30px; */
 }
 main {
   /* padding: 0px 230px; */
@@ -42,7 +43,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 230px 0 226px;
+  padding: 0 230px 0 226px;
   height: 161px;
 }
 nav ul li {
@@ -64,52 +65,49 @@ nav a {
 .btn1 {
   width: 150px;
   height: 64px;
-  /* padding: 18px 35px 19px 36px ; */
 }
 /* Header realated styles */
 .header {
-  max-width: 1600px;
-  max-height: 867px;
-  /* width: 1vh;
-  height: 1vh; */
-  flex-shrink: 0;
-  background: #fff8f3;
-  background-image: url("../images/header_bg.png");
-  /* background-image: url("../images/developer.png"); */
+  background: #edd0bb;
+  background-image: url("../images/header_bg.png"),url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right,bottom left;
 }
 .banner {
-  padding: 30px 30px 30px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
 }
-.banner-image {
-  width: 584px;
-  height: 676px;
+.banner-info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content:space-around;
+  padding-left: 230px;
+  align-items: flex-start;
 }
+ .banner-image { 
+  padding-bottom: 0;
+  margin: 0;
+  padding-top: 20px;
+} 
+
+
 .banner-greating {
   color: #474747;
-  font-size: 45px;
-  font-style: normal;
+  font-size: 40px;
   font-weight: 600;
-  line-height: normal;
-  /* margin-bottom: 5px; */
 }
 .banner-heading {
   color: #181818;
-  /* font-family: Open Sans; */
-  font-size: 85px;
-  font-style: normal;
+  font-size: 80px;
   font-weight: 700;
-  line-height: normal;
-  margin-top: 5px;
 }
-.banner-paragraph {
-  margin-top: 20px;
-}
-.banner-button .banner-button2 {
-  margin-top: 30px;
+.buttons {
+  display: flex;
+  gap: 15px;
 }
 /* About section css starts*/
 
@@ -120,7 +118,6 @@ nav a {
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 230px;
-  /* padding: 130px; */
 }
 .about-us {
   padding-top: 131px;
@@ -143,11 +140,12 @@ nav a {
 .skill-container {
   display: flex;
   justify-content: space-around;
-  gap: 24px;
-  padding: 0px 230px;
+  align-items: center;
+  gap: 0px;
+  padding-bottom: 130px;
 }
 .skills {
-  width: 267px;
+   width: 267px;
   height: 445px;
   flex-shrink: 0;
   border-radius: 5px;
